@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Project</title>
+        <style>
+            h1 {
+                text-align: center;
+                color: #ff99c8;
+                text-transform: uppercase;
+                letter-spacing: 8px;
+                border: 1px solid #ff99c8;
+                border-radius: 25px;
+            }
+            p {
+                text-align: justify;
+            }
+            h2 {
+                text-align: center;
+                text-transform: uppercase;
+                color: #7dc4e8;
+                letter-spacing: 8px;
+            }
+            img {
+                object-fit: cover;
+            }
+            .btn {
+                color: white;
+                background-color: #80dba3;   
+                width: 100%;
+                padding: 12px; 
+                border: none;
+                border-radius: 20px;    
+                cursor: pointer;     
+            }
+            .btn:hover {
+                background-color: #f9f1a2;
+            }
+        </style>
+        <script>
+            function onButtonClick() {
+                /*console.log("Funkija je pozvana korisnik je kliknuo na dugme");*/
+                alert('Your flight is at 8pm!');
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Travel Guide</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore possimus repellendus pariatur, vitae fuga atque et placeat, quam facere recusandae, nesciunt enim blanditiis? Dolor provident obcaecati deleniti ad minus molestias laudantium ullam ipsum animi repellendus, nesciunt sit architecto suscipit explicabo nisi vero, quam laboriosam, non ipsam nobis! Cumque, sapiente tenetur.</p>
+        <h2>Cappadocia</h2>
+        <hr />
+        <img src="travel.jpg" height="360px" width="100%" />
+        <p>If you want to read more visit <a href="https://en.wikipedia.org/wiki/Cappadocia" target="_blank">link</a>.</p>
+        <button class="btn" onclick="onButtonClick()" >LEARN MORE</button>
+    </body>
+</html>
